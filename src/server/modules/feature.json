@@ -1,0 +1,268 @@
+{
+  "msgId": 0,
+  "i18nCode": null,
+  "message": null,
+  "content": [
+    {
+      "fratureId": "d40898d0-26af-4799-b9c8-f12e29320f3c",
+      "featureName": "活動訊息管理",
+      "featureCode": "activityManager",
+      "uri": "activityManager",
+      "parentId": null,
+      "sequence": 1,
+      "level": 1,
+      "icon": ""
+    },
+    {
+      "fratureId": "9c3c0111-62f0-4c5a-bb75-f5d10aea8799",
+      "featureName": "廣告Banner管理",
+      "featureCode": "bannerManager",
+      "uri": "bannerManager",
+      "parentId": null,
+      "sequence": 2,
+      "level": 1,
+      "icon": ""
+    },
+    {
+      "fratureId": "66198172-ad74-4d21-a9d7-e230a5585553",
+      "featureName": "遊戲管理",
+      "featureCode": "gameInfoManager",
+      "uri": "gameInfoManager",
+      "parentId": null,
+      "sequence": 3,
+      "level": 1,
+      "icon": ""
+    },
+    {
+      "fratureId": "a86f3c31-e9e6-4d67-93ae-c621b6098ff6",
+      "featureName": "首頁管理",
+      "featureCode": "indexManager",
+      "uri": "indexManager",
+      "parentId": null,
+      "sequence": 4,
+      "level": 1,
+      "icon": ""
+    },
+    {
+      "fratureId": "ca226c82-0ba9-4d71-adda-b8889e29ff86",
+      "featureName": "遊戲類別管理",
+      "featureCode": "gameTypeManager",
+      "uri": "gameTypeManager",
+      "parentId": null,
+      "sequence": 5,
+      "level": 1,
+      "icon": ""
+    },
+    {
+      "fratureId": "e8a67131-940f-4937-adb1-a6d2db738735",
+      "featureName": "會員管理",
+      "featureCode": "memberManager",
+      "uri": "memberManager",
+      "parentId": null,
+      "sequence": 6,
+      "level": 1,
+      "icon": ""
+    },
+    {
+      "fratureId": "7d982ac1-19dd-4892-b31e-38de27d37ea9",
+      "featureName": "遊戲分類管理",
+      "featureCode": "gameGroupManager",
+      "uri": "gameGroupManager",
+      "parentId": null,
+      "sequence": 7,
+      "level": 1,
+      "icon": ""
+    },
+    {
+      "fratureId": "e36241a6-065f-42b4-8c12-2d2fc7b2c9c8",
+      "featureName": "遊戲館別管理",
+      "featureCode": "gameRoomManager",
+      "uri": "gameRoomManager",
+      "parentId": null,
+      "sequence": 8,
+      "level": 1,
+      "icon": ""
+    },
+    {
+      "fratureId": "748b4385-918e-440b-82ab-15671355af9f",
+      "featureName": "遊戲館別管理查詢",
+      "featureCode": "gameRoomManagerGet",
+      "uri": "gameRoomManagerGet",
+      "parentId": "e36241a6-065f-42b4-8c12-2d2fc7b2c9c8",
+      "sequence": 1,
+      "level": 2,
+      "icon": ""
+    },
+    {
+      "fratureId": "e3baa9ed-3765-45f7-9cb3-51dea748f8c6",
+      "featureName": "遊戲館別管理刪除",
+      "featureCode": "gameRoomManagerDel",
+      "uri": "gameRoomManagerDel",
+      "parentId": "e36241a6-065f-42b4-8c12-2d2fc7b2c9c8",
+      "sequence": 2,
+      "level": 2,
+      "icon": ""
+    },
+    {
+      "fratureId": "082f4f3c-5c25-4b6c-9347-a13f6fd79e83",
+      "featureName": "遊戲館別管理新增",
+      "featureCode": "gameRoomManagerAdd",
+      "uri": "gameRoomManagerAdd",
+      "parentId": "e36241a6-065f-42b4-8c12-2d2fc7b2c9c8",
+      "sequence": 3,
+      "level": 2,
+      "icon": ""
+    },
+    {
+      "fratureId": "130dc642-f08e-4b34-99d1-b4e78b5887be",
+      "featureName": "遊戲館別管理修改",
+      "featureCode": "gameRoomManagerUpdate",
+      "uri": "gameRoomManagerUpdate",
+      "parentId": "e36241a6-065f-42b4-8c12-2d2fc7b2c9c8",
+      "sequence": 4,
+      "level": 2,
+      "icon": ""
+    },
+    {
+      "fratureId": "50875b5e-8954-4a24-aa74-532358a2e473",
+      "featureName": "遊戲分類管理新增",
+      "featureCode": "gameGroupManagerAdd",
+      "uri": "gameGroupManagerAdd",
+      "parentId": "7d982ac1-19dd-4892-b31e-38de27d37ea9",
+      "sequence": 1,
+      "level": 2,
+      "icon": ""
+    },
+    {
+      "fratureId": "5136799e-bdba-47a0-a683-75d564e3e081",
+      "featureName": "遊戲分類管理刪除",
+      "featureCode": "gameGroupManagerDel",
+      "uri": "gameGroupManagerDel",
+      "parentId": "7d982ac1-19dd-4892-b31e-38de27d37ea9",
+      "sequence": 2,
+      "level": 2,
+      "icon": ""
+    },
+    {
+      "fratureId": "1241e526-5d41-4286-a1d8-9d5082af89f4",
+      "featureName": "遊戲分類管理修改",
+      "featureCode": "gameGroupManagerUpdate",
+      "uri": "gameGroupManagerUpdate",
+      "parentId": "7d982ac1-19dd-4892-b31e-38de27d37ea9",
+      "sequence": 3,
+      "level": 2,
+      "icon": ""
+    },
+    {
+      "fratureId": "9a63b7dc-f33c-4871-aac9-fbd178b4c06c",
+      "featureName": "遊戲分類管理查詢",
+      "featureCode": "gameGroupManagerGet",
+      "uri": "gameGroupManagerGet",
+      "parentId": "7d982ac1-19dd-4892-b31e-38de27d37ea9",
+      "sequence": 4,
+      "level": 2,
+      "icon": ""
+    },
+    {
+      "fratureId": "29d4a8fb-da7f-4e9f-9814-2ab3f0960c28",
+      "featureName": "功能維護",
+      "featureCode": "featureManager",
+      "uri": "featureManager",
+      "parentId": "e8a67131-940f-4937-adb1-a6d2db738735",
+      "sequence": 1,
+      "level": 2,
+      "icon": ""
+    },
+    {
+      "fratureId": "7ef0a22b-eeed-49a1-aac1-7d06cdbeafdb",
+      "featureName": "帳號維護",
+      "featureCode": "userManager",
+      "uri": "userManager",
+      "parentId": "e8a67131-940f-4937-adb1-a6d2db738735",
+      "sequence": 2,
+      "level": 2,
+      "icon": ""
+    },
+    {
+      "fratureId": "1ad9d5ed-dc4f-4691-8da5-b9ee310c1a9c",
+      "featureName": "角色維護",
+      "featureCode": "roleManager",
+      "uri": "roleManager",
+      "parentId": "e8a67131-940f-4937-adb1-a6d2db738735",
+      "sequence": 3,
+      "level": 2,
+      "icon": ""
+    },
+    {
+      "fratureId": "488873e6-119f-44ea-b6ee-4a82e6838580",
+      "featureName": "遊戲管理新增",
+      "featureCode": "gameInfoManagerAdd",
+      "uri": "gameInfoManagerAdd",
+      "parentId": "66198172-ad74-4d21-a9d7-e230a5585553",
+      "sequence": 0,
+      "level": 2,
+      "icon": ""
+    },
+    {
+      "fratureId": "d7f317e8-c3d2-46b4-8a89-7b596530fd60",
+      "featureName": "遊戲管理修改",
+      "featureCode": "gameInfoManagerUpdate",
+      "uri": "gameInfoManagerUpdate",
+      "parentId": "66198172-ad74-4d21-a9d7-e230a5585553",
+      "sequence": 0,
+      "level": 2,
+      "icon": ""
+    },
+    {
+      "fratureId": "98fda71c-0712-4135-a208-a4303f008339",
+      "featureName": "遊戲管理查詢",
+      "featureCode": "gameInfoManagerGet",
+      "uri": "gameInfoManagerGet",
+      "parentId": "66198172-ad74-4d21-a9d7-e230a5585553",
+      "sequence": 0,
+      "level": 2,
+      "icon": ""
+    },
+    {
+      "fratureId": "f00d414c-0e71-4bbe-beb6-ed5cd639d7a3",
+      "featureName": "遊戲管理刪除",
+      "featureCode": "gameInfoManagerDel",
+      "uri": "gameInfoManagerDel",
+      "parentId": "66198172-ad74-4d21-a9d7-e230a5585553",
+      "sequence": 0,
+      "level": 2,
+      "icon": ""
+    },
+    {
+      "fratureId": "d080f388-8473-4ad6-8fb5-3d862c87b679",
+      "featureName": "Banner修改",
+      "featureCode": "bannerUpdate",
+      "uri": null,
+      "parentId": "9c3c0111-62f0-4c5a-bb75-f5d10aea8799",
+      "sequence": 1,
+      "level": 2,
+      "icon": ""
+    },
+    {
+      "fratureId": "d55cdf42-7112-4eb4-8828-98e4f109b580",
+      "featureName": "Banner刪除",
+      "featureCode": "bannerDelete",
+      "uri": null,
+      "parentId": "9c3c0111-62f0-4c5a-bb75-f5d10aea8799",
+      "sequence": 2,
+      "level": 2,
+      "icon": ""
+    },
+    {
+      "fratureId": "084ec638-6bd5-4b93-b8a1-cbf8458a3024",
+      "featureName": "BannerLevel2Menu",
+      "featureCode": "bannerView",
+      "uri": null,
+      "parentId": "9c3c0111-62f0-4c5a-bb75-f5d10aea8799",
+      "sequence": 3,
+      "level": 2,
+      "icon": ""
+    }
+  ],
+  "timestamp": 1679038211048
+}

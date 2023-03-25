@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    // https://juejin.cn/post/6844904093568221191 詳細解釋
     /* Visit https://aka.ms/tsconfig to read more about this file */
 
     /* Projects */

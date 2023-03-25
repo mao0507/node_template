@@ -1,5 +1,5 @@
 {
-  "name": "9527server",
+  "name": "node_template",
   "version": "0.0.1",
   "description": "localhost server ",
   "main": "index.js",

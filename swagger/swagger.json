@@ -1,0 +1,112 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "REST API",
+    "description": "測試用"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:9527/"
+    }
+  ],
+  "tags": [
+    {
+      "name": "test",
+      "description": "測試用 API"
+    },
+    {
+      "name": "auth",
+      "description": "登入相關 API"
+    }
+  ],
+  "paths": {
+    "/api/test/": {
+      "get": {
+        "tags": [
+          "test"
+        ],
+        "description": "",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/test/list": {
+      "get": {
+        "tags": [
+          "test"
+        ],
+        "description": "",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/auth/": {
+      "post": {
+        "tags": [
+          "auth"
+        ],
+        "description": "auth",
+        "parameters": [
+          {
+            "name": "account",
+            "description": "string",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "password",
+            "description": "string",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "account": {
+                    "example": "any"
+                  },
+                  "password": {
+                    "example": "any"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "autoBody": false
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT",
+        "description": "Some description..."
+      }
+    }
+  }
+}

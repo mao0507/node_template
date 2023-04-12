@@ -21,18 +21,18 @@
 │📁 src <br>
 │├ index.js <br>
 │├ 📁 config <br>
-│ &nbsp; ├  config.ts <br> 
-│ &nbsp; └  express.ts<br>
+││ &nbsp; ├  config.ts <br> 
+││ &nbsp; └  express.ts<br>
 │├ 📁 controller <br>
-│ &nbsp; └  auth.ts<br>
+││ &nbsp; └  auth.ts<br>
 │├ 📁 model <br>
-│ &nbsp; └  token.ts <br> 
+││ &nbsp; └  token.ts <br> 
 │├ 📁 server <br>
-│ &nbsp; ├ 📁 modules  <br> 
-│ &nbsp; ├ 📁 router  <br> 
-│ &nbsp; &nbsp; ├  auth.ts <br>
-│ &nbsp; &nbsp; └  test.ts <br> 
-│ &nbsp; └  index.ts<br>
+││ &nbsp; ├ 📁 modules  <br> 
+││ &nbsp; ├ 📁 router  <br> 
+││ &nbsp; │ &nbsp; ├  auth.ts <br>
+││ &nbsp; │ &nbsp; └  test.ts <br> 
+││ &nbsp; └  index.ts<br>
 │└ 📁 swagger <br>
 │ &nbsp; ├  sawgger.js <br> 
 │ &nbsp; └  sawgger.json<br>
@@ -43,6 +43,7 @@
 │ README.md <br>
 │ tsconfig.json <br>
 │ yarn.lock
+
 
 
 ### 現有功能

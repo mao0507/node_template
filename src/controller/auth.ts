@@ -1,4 +1,4 @@
-import { jwtToken } from '../model/token'
+import { jwtToken,verifyToken } from '../model/token'
 /**
  * 宣告回傳 模型，帶入指定欄位資料即可輸出物件回去
  * @param { Boolean } success  判斷是否請求成功
@@ -57,11 +57,11 @@ export default function Auth() {
 
   /**
    * 檢查 Token 是否失效
-   * @param { Object } accountInfo 帳號資訊
    */
-  const checkToken = (accountInfo:any) => {
-    console.log(accountInfo)
-    console.log('checkToken')
+  const checkToken = (token:string) => {
+
+    verifyToken(token)
+    
   }
 
   return {

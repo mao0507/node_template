@@ -27,7 +27,7 @@
 ││ &nbsp; └  auth.ts<br>
 │├ 📁 model <br>
 ││ &nbsp; └  token.ts <br> 
-│├ 📁 server <br>
+│├ 📁 service <br>
 ││ &nbsp; ├ 📁 modules  <br> 
 ││ &nbsp; ├ 📁 router  <br> 
 ││ &nbsp; │ &nbsp; ├  auth.ts <br>

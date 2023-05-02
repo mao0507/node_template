@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 
 /* GET home page. */
 app.get('/', (req, res) => {
-  res.send(`server started on  port http://127.0.0.1:${config.port} (${config.env})`);
+  res.send(`service started on  port http://127.0.0.1:${config.port} (${config.env})`);
 });
 
 

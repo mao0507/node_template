@@ -10,7 +10,7 @@
 const config = {
   version: '1.0.0',
   env: 'development',
-  port: '9527'
+  port: '9527',
 };
 
 export default config;

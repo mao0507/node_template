@@ -49,16 +49,44 @@
         }
       }
     },
+    "/api/test/testToken": {
+      "get": {
+        "tags": [
+          "test"
+        ],
+        "description": "",
+        "parameters": [
+          {
+            "name": "authorization",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
     "/api/auth/": {
       "post": {
         "tags": [
           "auth"
         ],
-        "description": "auth",
+        "description": "登入",
         "parameters": [
           {
             "name": "account",
-            "description": "string",
+            "description": "輸入帳號",
+            "required": true,
             "in": "query",
             "schema": {
               "type": "string"
@@ -66,7 +94,8 @@
           },
           {
             "name": "password",
-            "description": "string",
+            "description": "輸入密碼",
+            "required": true,
             "in": "query",
             "schema": {
               "type": "string"
@@ -79,23 +108,8 @@
           }
         },
         "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "type": "object",
-                "properties": {
-                  "account": {
-                    "example": "any"
-                  },
-                  "password": {
-                    "example": "any"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "autoBody": false
+          "required": false
+        }
       }
     }
   },

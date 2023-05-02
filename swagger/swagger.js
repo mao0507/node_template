@@ -52,6 +52,6 @@ const doc = {
 // 輸出的文件名稱
 const outputFile = './swagger/swagger.json'
 // 要指向的 API，通常使用 Express 直接指向到 app.js 就可以
-const endpointsFiles = ['./src/server/index.ts']
+const endpointsFiles = ['./src/service/index.ts']
 // swaggerAutogen 的方法
 swaggerAutogen(outputFile, endpointsFiles, doc)
